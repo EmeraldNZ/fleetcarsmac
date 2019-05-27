@@ -13,9 +13,9 @@ namespace api.Controllers
     public class CarsController : ControllerBase
     {
 
-        private readonly CarContext _context;
+        private readonly FleetContext _context;
 
-        public CarsController(CarContext context)
+        public CarsController(FleetContext context)
         {
             _context = context;
         }
